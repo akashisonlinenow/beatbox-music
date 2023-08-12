@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import getLikedSongs from "@/actions/getLikedSongs";
 import Header from "@/components/Header";
+import LikedContent from "./components/LikedContent";
 
 export const revalidate = 0;
 
@@ -49,7 +50,7 @@ const Liked = async () => {
                 </div>
             </div>
         </Header>
-        
+        <LikedContent songs={songs} />
     </div>
   )
 }
