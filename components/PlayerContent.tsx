@@ -1,8 +1,10 @@
 "use client";
 
+import useSound from "use-sound";
+// const useSound = require('use-sound');
 import { Song } from "@/types";
 import { BsPauseFill, BsPlayFill } from "react-icons/bs";
-import useSound from "use-sound";
+
 
 import MediaItem from "./MediaItem";
 import LikeButton from "./LikeButton";
@@ -21,6 +23,7 @@ const PlayerContent: React.FC<PlayerContentProps> = ({
     song,
     songUrl
 }) => {
+
     const player = usePlayer();
     const [volume, setVolume] = useState(1);
     const [isPlaying, setIsPlaying] = useState(false);
@@ -198,3 +201,7 @@ const PlayerContent: React.FC<PlayerContentProps> = ({
 }
 
 export default PlayerContent
+
+// function useSound(songUrl: string, arg1: { volume: number; onplay: () => void; onend: () => void; onpause: () => void; format: string[]; }): [any, { pause: any; sound: any; }] {
+//     throw new Error("Function not implemented.");
+// }
