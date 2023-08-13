@@ -9,12 +9,13 @@ import ToasterProvider from '@/providers/ToasterProvider'
 import getSongsByUserId from '@/actions/getSongsByUserId.ts'
 import Player from '@/components/Player'
 import getActiveProductsWithPrices from '@/actions/getActiveProductsWithPrices'
+import { BiCopyright } from 'react-icons/bi'
 
 const font = Figtree({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'BeatBox',
-  description: 'Enjoy all your favourite and latest music only on BeatBox',
+  title: 'BeatBox - Made by Akash ©' ,
+  description: 'Enjoy all your favourite and trending music only on BeatBox version@1.0.0',
 }
 
 export const revalidate = 0;
