@@ -1,6 +1,6 @@
-# Beatbox Music App # # My Academic Project #
+# Beatbox Music App #
 
-# Beatbox Music App # where a loginned and subscribed user can add and listen to the songs, like songs functionality added, Stripe payment gateway integrated. Build with [Next.js](https://nextjs.org/), [React](https://react.dev/)and [Tailwind CSS](https://tailwindcss.com/).
+Beatbox Music App where a loginned and subscribed user can add and listen to the songs, like songs functionality added, Stripe payment gateway integrated. Build with [Next.js](https://nextjs.org/), [React](https://react.dev/)and [Tailwind CSS](https://tailwindcss.com/).
 
 Checkout the **[Live Site](https://beatboxmusic.vercel.app/)**.
 
